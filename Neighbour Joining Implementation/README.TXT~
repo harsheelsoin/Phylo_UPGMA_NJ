@@ -1,0 +1,28 @@
+This program generates a  tree using neighbor-joining method.
+
+Requirements: Python 2.7 (http://www.python.org/) , NumPy (http://numpy.scipy.org/)
+Usage:
+  python nj.py <input file>
+
+#<input file>: (space-separated distance matrix)
+
+Example:  
+  python nj.py test_data.txt
+
+R code for plot can be found in 'R codeForPlot.txt'
+Requirements: R (version 3.0.2 and above)
+
+Installation instructions:
+http://rpy.sourceforge.net/rpy2/doc-dev/html/overview.html
+https://cran.r-project.org/
+https://launchpad.net/~marutter/+archive/ubuntu/rrutter
+
+https://www.youtube.com/watch?v=Nxl7HDUyw0I  (Video tutorial to get latest version: 3.3.2)
+
+#Calculating RF Distance between Biopython NJ tree and my NJ implementation:
+Usage:
+  python dendropyWithImplementedNJ.py
+
+
+
+    

@@ -1,0 +1,79 @@
+Tree(rooted=True)
+    Clade(branch_length=0, name='Inner18')
+        Clade(branch_length=0.134144062099, name='lcl|AP004411.1_gene_4')
+        Clade(branch_length=0.0161908982117, name='Inner17')
+            Clade(branch_length=0.117953163887, name='lcl|AP008991.1_gene_3')
+            Clade(branch_length=0.00386814712789, name='Inner16')
+                Clade(branch_length=0.114085016759, name='lcl|NC_002616.1_gene_3')
+                Clade(branch_length=0.00668101718048, name='Inner15')
+                    Clade(branch_length=0.107403999579, name='lcl|AP008988.1_gene_3')
+                    Clade(branch_length=0.00848800276975, name='Inner14')
+                        Clade(branch_length=0.0989159968088, name='lcl|AP002929.1_gene_3')
+                        Clade(branch_length=0.0214545826309, name='Inner13')
+                            Clade(branch_length=0.0240333473828, name='Inner9')
+                                Clade(branch_length=0.0626204238921, name='lcl|AP008990.1_gene_3')
+                                Clade(branch_length=0.0626204238921, name='lcl|AP008989.1_gene_3')
+                            Clade(branch_length=0.00919235709698, name='Inner12')
+                                Clade(branch_length=0.0774614141779, name='lcl|NC_015120.1_gene_16')
+                                Clade(branch_length=0.00638622952794, name='Inner11')
+                                    Clade(branch_length=0.07107518465, name='lcl|AP004412.1_gene_3')
+                                    Clade(branch_length=0.00758670520231, name='Inner10')
+                                        Clade(branch_length=0.0634884794477, name='lcl|FR751401.1_gene_16')
+                                        Clade(branch_length=0.0205774325626, name='Inner8')
+                                            Clade(branch_length=0.042911046885, name='lcl|NC_007396.1_gene_3')
+                                            Clade(branch_length=0.018826268465, name='Inner7')
+                                                Clade(branch_length=0.015976236352, name='Inner6')
+                                                    Clade(branch_length=0.02408477842, name='lcl|FR751399.1_gene_16')
+                                                    Clade(branch_length=0.02408477842, name='lcl|NC_015097.1_gene_16')
+                                                Clade(branch_length=0.0193882466281, name='Inner5')
+                                                    Clade(branch_length=0.00397398843931, name='Inner4')
+                                                        Clade(branch_length=0.00236833654464, name='Inner3')
+                                                            Clade(branch_length=0.0166987797046, name='lcl|NC_010121.1_gene_4')
+                                                            Clade(branch_length=0.0166987797046, name='lcl|AM919429.1_gene_16')
+                                                        Clade(branch_length=0.00285003211304, name='Inner2')
+                                                            Clade(branch_length=0.0162170841362, name='lcl|AM489716.1_gene_16')
+                                                            Clade(branch_length=0.0139691714836, name='Inner1')
+                                                                Clade(branch_length=0.00224791265254, name='lcl|AB182305.1_gene_3')
+                                                                Clade(branch_length=0.00224791265254, name='lcl|AM489718.1_gene_16')
+                                                    Clade(branch_length=0.0206727681439, name='lcl|NC_012323.1_gene_3')
+
+
+  _________________________________________ lcl|AP004411.1_gene_4
+ |
+_|     ____________________________________ lcl|AP008991.1_gene_3
+ |    |
+ |____| ___________________________________ lcl|NC_002616.1_gene_3
+      ||
+      ||  _________________________________ lcl|AP008988.1_gene_3
+       | |
+       |_|   ______________________________ lcl|AP002929.1_gene_3
+         |  |
+         |__|              ___________________ lcl|AP008990.1_gene_3
+            |      _______|
+            |     |       |___________________ lcl|AP008989.1_gene_3
+            |_____|
+                  |   ________________________ lcl|NC_015120.1_gene_16
+                  |  |
+                  |__|  ______________________ lcl|AP004412.1_gene_3
+                     | |
+                     |_|   ___________________ lcl|FR751401.1_gene_16
+                       |  |
+                       |__|      _____________ lcl|NC_007396.1_gene_3
+                          |     |
+                          |     |           _______ lcl|FR751399.1_gene_16
+                          |_____|      ____|
+                                |     |    |_______ lcl|NC_015097.1_gene_16
+                                |     |
+                                |     |        _____ lcl|NC_010121.1_gene_4
+                                |_____|      ,|
+                                      |      ||_____ lcl|AM919429.1_gene_16
+                                      |     ,|
+                                      |     || _____ lcl|AM489716.1_gene_16
+                                      |     |||
+                                      |_____| |    , lcl|AB182305.1_gene_3
+                                            | |____|
+                                            |      | lcl|AM489718.1_gene_16
+                                            |
+                                            |______ lcl|NC_012323.1_gene_3
+
+

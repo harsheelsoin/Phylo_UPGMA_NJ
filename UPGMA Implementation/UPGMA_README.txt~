@@ -1,0 +1,36 @@
+#Main UPGMA Implementation
+Usage:
+  python upgma.py
+
+#Tree plotting and pdf generation
+Requirements:
+Install python package 'rpy2' for 'R' language functionality in python. Instructions:
+http://rpy.sourceforge.net/rpy2/doc-dev/html/overview.html
+
+Command: 
+sudo pip install rpy2
+
+Usage:
+  python make_tree.py
+
+#RF Distance Calculation
+Usage:
+  python dendropyWithImplementedUPGMA.py
+
+Observations:
+
+RF Distance between Biopython NJ tree and Biopython UPGMA Implementation tree:
+8
+RF Distance between Biopython NJ tree and my UPGMA Implementation tree:
+70
+RF Distance between Biopython UPGMA tree and my UPGMA Implementation tree:
+70
+
+Biopython NJ Tree (Newick):
+((lcl|AP002929.1_gene_3:0.09916,(lcl|AP008991.1_gene_3:0.11755,(lcl|NC_002616.1_gene_3:0.11297,(lcl|NC_015120.1_gene_16:0.07565,(lcl|AP004412.1_gene_3:0.06929,(lcl|FR751401.1_gene_16:0.06286,(lcl|NC_007396.1_gene_3:0.04507,((lcl|NC_012323.1_gene_3:0.02088,((lcl|NC_010121.1_gene_4:0.01660,lcl|AM919429.1_gene_16:0.01680)Inner4:0.00268,(lcl|AM489716.1_gene_16:0.01622,(lcl|AB182305.1_gene_3:0.00198,lcl|AM489718.1_gene_16:0.00251)Inner1:0.01396)Inner5:0.00254)Inner6:0.00140)Inner7:0.01781,(lcl|FR751399.1_gene_16:0.02332,lcl|NC_015097.1_gene_16:0.02484)Inner3:0.01755)Inner8:0.00069)Inner9:0.02120)Inner10:0.00937)Inner11:0.00819)Inner12:0.00905)Inner14:0.00409)Inner15:0.00483)Inner16:0.00280,((lcl|AP008990.1_gene_3:0.05646,lcl|AP008989.1_gene_3:0.06878)Inner2:0.02216,lcl|AP008988.1_gene_3:0.11432)Inner13:0.00680,lcl|AP004411.1_gene_4:0.14895)Inner17:0.00000;
+
+Biopython UPGMA Tree (Newick):
+(lcl|AP004411.1_gene_4:0.13414,(lcl|AP008991.1_gene_3:0.11795,(lcl|NC_002616.1_gene_3:0.11409,(lcl|AP008988.1_gene_3:0.10740,(lcl|AP002929.1_gene_3:0.09892,((lcl|AP008990.1_gene_3:0.06262,lcl|AP008989.1_gene_3:0.06262)Inner9:0.02403,(lcl|NC_015120.1_gene_16:0.07746,(lcl|AP004412.1_gene_3:0.07108,(lcl|FR751401.1_gene_16:0.06349,(lcl|NC_007396.1_gene_3:0.04291,((lcl|FR751399.1_gene_16:0.02408,lcl|NC_015097.1_gene_16:0.02408)Inner6:0.01598,(((lcl|NC_010121.1_gene_4:0.01670,lcl|AM919429.1_gene_16:0.01670)Inner3:0.00237,(lcl|AM489716.1_gene_16:0.01622,(lcl|AB182305.1_gene_3:0.00225,lcl|AM489718.1_gene_16:0.00225)Inner1:0.01397)Inner2:0.00285)Inner4:0.00397,lcl|NC_012323.1_gene_3:0.02067)Inner5:0.01939)Inner7:0.01883)Inner8:0.02058)Inner10:0.00759)Inner11:0.00639)Inner12:0.00919)Inner13:0.02145)Inner14:0.00849)Inner15:0.00668)Inner16:0.00387)Inner17:0.01619)Inner18:0.00000;
+
+My UPGMA Implementation (Newick):
+((((((((((((NC_012323.1_gene_3:32, (((AM489718.1_gene_16:3, AB182305.1_gene_3:3):21, AM489716.1_gene_16:25):4, (AM919429.1_gene_16:26, NC_010121.1_gene_4:26):3):2):29, (NC_015097.1_gene_16:37, FR751399.1_gene_16:37):24):3, NC_007396.1_gene_3:65):30, FR751401.1_gene_16:95):10, AP004412.1_gene_3:106):20, NC_015120.1_gene_16:126):1, (AP008989.1_gene_3:94, AP008990.1_gene_3:94):33):23, AP002929.1_gene_3:151):8, NC_002616.1_gene_3:160):1, AP008988.1_gene_3:162):10, AP008991.1_gene_3:172):23, AP004411.1_gene_4:196);

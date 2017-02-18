@@ -1,0 +1,76 @@
+  _________________________________ lcl|AP002929.1_gene_3
+ |
+ |  _______________________________________ lcl|AP008991.1_gene_3
+ | |
+ |_|  _____________________________________ lcl|NC_002616.1_gene_3
+ | | |
+ | |_|   _________________________ lcl|NC_015120.1_gene_16
+ |   |  |
+ |   |__|  _______________________ lcl|AP004412.1_gene_3
+ |      | |
+ |      |_|    ____________________ lcl|FR751401.1_gene_16
+ |        |   |
+ |        |   |       ______________ lcl|NC_007396.1_gene_3
+ |        |___|      |
+ |            |      |      ______ lcl|NC_012323.1_gene_3
+ |            |      |     |
+ |            |______|_____|  ____ lcl|NC_010121.1_gene_4
+ |                   |     |,|
+ |                   |     |||____ lcl|AM919429.1_gene_16
+_|                   |     ||
+ |                   |      | ____ lcl|AM489716.1_gene_16
+ |                   |      ||
+ |                   |       |   , lcl|AB182305.1_gene_3
+ |                   |       |___|
+ |                   |           | lcl|AM489718.1_gene_16
+ |                   |
+ |                   |      _______ lcl|FR751399.1_gene_16
+ |                   |_____|
+ |                         |________ lcl|NC_015097.1_gene_16
+ |
+ |         ___________________ lcl|AP008990.1_gene_3
+ |  ______|
+ |_|      |_______________________ lcl|AP008989.1_gene_3
+ | |
+ | |______________________________________ lcl|AP008988.1_gene_3
+ |
+ |__________________________________________________ lcl|AP004411.1_gene_4
+
+
+Tree(rooted=False)
+    Clade(branch_length=0, name='Inner17')
+        Clade(branch_length=0.00279671945247, name='Inner16')
+            Clade(branch_length=0.099162175859, name='lcl|AP002929.1_gene_3')
+            Clade(branch_length=0.00482793182001, name='Inner15')
+                Clade(branch_length=0.117553893873, name='lcl|AP008991.1_gene_3')
+                Clade(branch_length=0.00409430779678, name='Inner14')
+                    Clade(branch_length=0.112967802916, name='lcl|NC_002616.1_gene_3')
+                    Clade(branch_length=0.00904794250763, name='Inner12')
+                        Clade(branch_length=0.0756540104501, name='lcl|NC_015120.1_gene_16')
+                        Clade(branch_length=0.00819363325573, name='Inner11')
+                            Clade(branch_length=0.0692874632994, name='lcl|AP004412.1_gene_3')
+                            Clade(branch_length=0.00937442655289, name='Inner10')
+                                Clade(branch_length=0.0628625260918, name='lcl|FR751401.1_gene_16')
+                                Clade(branch_length=0.0212033859184, name='Inner9')
+                                    Clade(branch_length=0.0450664115464, name='lcl|NC_007396.1_gene_3')
+                                    Clade(branch_length=0.000694667451652, name='Inner8')
+                                        Clade(branch_length=0.0178127007065, name='Inner7')
+                                            Clade(branch_length=0.0208807730484, name='lcl|NC_012323.1_gene_3')
+                                            Clade(branch_length=0.00139764699013, name='Inner6')
+                                                Clade(branch_length=0.00267608649112, name='Inner4')
+                                                    Clade(branch_length=0.0165955592256, name='lcl|NC_010121.1_gene_4')
+                                                    Clade(branch_length=0.0168020001835, name='lcl|AM919429.1_gene_16')
+                                                Clade(branch_length=0.00254228216656, name='Inner5')
+                                                    Clade(branch_length=0.0162232597204, name='lcl|AM489716.1_gene_16')
+                                                    Clade(branch_length=0.0139629958994, name='Inner1')
+                                                        Clade(branch_length=0.00198345234047, name='lcl|AB182305.1_gene_3')
+                                                        Clade(branch_length=0.0025123729646, name='lcl|AM489718.1_gene_16')
+                                        Clade(branch_length=0.0175517822736, name='Inner3')
+                                            Clade(branch_length=0.0233247698566, name='lcl|FR751399.1_gene_16')
+                                            Clade(branch_length=0.0248447869835, name='lcl|NC_015097.1_gene_16')
+        Clade(branch_length=0.0067997162512, name='Inner13')
+            Clade(branch_length=0.0221589996789, name='Inner2')
+                Clade(branch_length=0.0564587347463, name='lcl|AP008990.1_gene_3')
+                Clade(branch_length=0.0687821130379, name='lcl|AP008989.1_gene_3')
+            Clade(branch_length=0.114321411368, name='lcl|AP008988.1_gene_3')
+        Clade(branch_length=0.148948517532, name='lcl|AP004411.1_gene_4')

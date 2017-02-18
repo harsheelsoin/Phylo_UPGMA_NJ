@@ -1,0 +1,21 @@
+setwd('Desktop/nj')
+data = read.table('distanceMatrix.txt',head=F)
+
+colnames(data) = c('lcl|NC_012323.1_gene_3','lcl|AM489718.1_gene_16','lcl|NC_015097.1_gene_16','lcl|AP008988.1_gene_3','lcl|AP002929.1_gene_3','lcl|NC_002616.1_gene_3','lcl|FR751399.1_gene_16','lcl|AP008991.1_gene_3','lcl|AP008989.1_gene_3','lcl|AM919429.1_gene_16','lcl|AP004411.1_gene_4','lcl|AM489716.1_gene_16','lcl|FR751401.1_gene_16','lcl|NC_007396.1_gene_3','lcl|AB182305.1_gene_3','lcl|AP004412.1_gene_3','lcl|NC_010121.1_gene_4','lcl|NC_015120.1_gene_16','lcl|AP008990.1_gene_3')
+
+rownames(data) = c('lcl|NC_012323.1_gene_3','lcl|AM489718.1_gene_16','lcl|NC_015097.1_gene_16','lcl|AP008988.1_gene_3','lcl|AP002929.1_gene_3','lcl|NC_002616.1_gene_3','lcl|FR751399.1_gene_16','lcl|AP008991.1_gene_3','lcl|AP008989.1_gene_3','lcl|AM919429.1_gene_16','lcl|AP004411.1_gene_4','lcl|AM489716.1_gene_16','lcl|FR751401.1_gene_16','lcl|NC_007396.1_gene_3','lcl|AB182305.1_gene_3','lcl|AP004412.1_gene_3','lcl|NC_010121.1_gene_4','lcl|NC_015120.1_gene_16','lcl|AP008990.1_gene_3')
+
+d = as.dist(data)
+d
+
+library(ape)
+tr = nj(d)
+
+names(tr)
+
+tr$edge.length
+tr$edge
+tr$tip.label
+
+plot(tr,type='unrooted')
+write.tree(tr)
